@@ -1,0 +1,9 @@
+Motifs du shell
+
+* : n'importe quelle chaîne de caractères (même vide),
+? : n'importe quel caractère,
+\* \? \\ : Caractères *, ?, \,
+[liste] : Caractères l, i, s, t, e
+[b-e] : Caractères b, c, d, e
+[^liste] : N'importe quel caractère sauf ceux de la liste
+

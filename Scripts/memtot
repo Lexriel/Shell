@@ -1,0 +1,9 @@
+#!/bin/bash
+# Une variable pour contenir le résultat
+SOMME=0
+
+for i in `ps ux | cut -c26-29`; do
+  SOMME=$(( SOMME + i ))
+done
+
+echo $SOMME
